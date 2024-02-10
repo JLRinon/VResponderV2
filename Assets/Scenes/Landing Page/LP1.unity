@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18168612, g: 0.22362353, b: 0.285834, a: 1}
+  m_IndirectSpecularColor: {r: 0.18168569, g: 0.22362277, b: 0.28583324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -402,8 +402,8 @@ GameObject:
   - component: {fileID: 25461081}
   - component: {fileID: 25461080}
   - component: {fileID: 25461079}
-  - component: {fileID: 25461085}
   - component: {fileID: 25461086}
+  - component: {fileID: 25461085}
   m_Layer: 0
   m_Name: Right Controller
   m_TagString: Right Controller
@@ -1037,6 +1037,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 25461077}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42a4d3cf7704e64cad19cd48a013782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActivationVoiceButton: {fileID: 174170498}
+--- !u!114 &25461086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25461077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -1055,7 +1068,7 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 25461086}
+      - m_Target: {fileID: 25461085}
         m_TargetAssemblyTypeName: PushToTalk, Assembly-CSharp
         m_MethodName: OnAButton
         m_Mode: 0
@@ -1074,19 +1087,6 @@ MonoBehaviour:
   m_DefaultActionMap: VoiceActivation
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &25461086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 25461077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d42a4d3cf7704e64cad19cd48a013782, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ActivationVoiceButton: {fileID: 174170498}
 --- !u!1 &25915016
 GameObject:
   m_ObjectHideFlags: 0
