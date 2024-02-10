@@ -19,6 +19,8 @@ TagManager:
   - OBJ6
   - OBJ6.1
   - OBJ7
+  - Selectable
+  - StopEngine
   layers:
   - Default
   - TransparentFX

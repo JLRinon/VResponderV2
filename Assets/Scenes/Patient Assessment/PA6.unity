@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18168569, g: 0.22362277, b: 0.28583324, a: 1}
+  m_IndirectSpecularColor: {r: 0.18168612, g: 0.22362353, b: 0.285834, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -460,10 +460,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7625819662635619451, guid: c0f36d6caffeade45813360a0635306d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 280211796}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3815420590829902914, guid: c0f36d6caffeade45813360a0635306d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 36238417}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0f36d6caffeade45813360a0635306d, type: 3}
 --- !u!1 &36238414 stripped
 GameObject:
@@ -480,27 +477,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7625819662635619451, guid: c0f36d6caffeade45813360a0635306d, type: 3}
   m_PrefabInstance: {fileID: 36238413}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &36238417
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 36238414}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.60880995, y: 0.55952454, z: 2.2807922}
-  m_Center: {x: 0.032597065, y: 2.5010686, z: 0.083595276}
 --- !u!1 &62242408
 GameObject:
   m_ObjectHideFlags: 0
@@ -7583,10 +7559,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7625819662635619451, guid: c0f36d6caffeade45813360a0635306d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 144037086}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3815420590829902914, guid: c0f36d6caffeade45813360a0635306d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 620470146}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0f36d6caffeade45813360a0635306d, type: 3}
 --- !u!1 &620470144 stripped
 GameObject:
@@ -7598,27 +7571,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7625819662635619451, guid: c0f36d6caffeade45813360a0635306d, type: 3}
   m_PrefabInstance: {fileID: 620470143}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &620470146
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 620470144}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.22094727, y: 0.2866192, z: 2.2807922}
-  m_Center: {x: 0.028836966, y: 2.364616, z: 0.083595276}
 --- !u!1 &630298090
 GameObject:
   m_ObjectHideFlags: 0
@@ -9263,27 +9215,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3815420590829902914, guid: c0f36d6caffeade45813360a0635306d, type: 3}
   m_PrefabInstance: {fileID: 1640528311246965641}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &791679849
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 791679846}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.60880995, y: 0.55952454, z: 2.2807922}
-  m_Center: {x: 0.032597065, y: 2.5010686, z: 0.083595276}
 --- !u!1 &792117591
 GameObject:
   m_ObjectHideFlags: 0
@@ -19703,13 +19634,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
+      - m_Target: {fileID: 388861921}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: StartPatientassessment7
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -21537,10 +21468,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7625819662635619451, guid: c0f36d6caffeade45813360a0635306d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1964803313}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3815420590829902914, guid: c0f36d6caffeade45813360a0635306d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 791679849}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0f36d6caffeade45813360a0635306d, type: 3}
 --- !u!1001 &4778757316932889549
 PrefabInstance:

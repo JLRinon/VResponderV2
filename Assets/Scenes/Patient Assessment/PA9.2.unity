@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18168569, g: 0.22362277, b: 0.28583324, a: 1}
+  m_IndirectSpecularColor: {r: 0.18168612, g: 0.22362353, b: 0.285834, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6139,32 +6139,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783378395}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &791679846 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3815420590829902914, guid: c0f36d6caffeade45813360a0635306d, type: 3}
-  m_PrefabInstance: {fileID: 1640528311246965641}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &791679849
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 791679846}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.60880995, y: 0.55952454, z: 2.2807922}
-  m_Center: {x: 0.032597065, y: 2.5010686, z: 0.083595276}
 --- !u!1 &795465785
 GameObject:
   m_ObjectHideFlags: 0
@@ -13017,7 +12991,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 388861921}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: StartPatientassessment6
+        m_MethodName: StartPatientassessment10_3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16110,9 +16084,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1964803313}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3815420590829902914, guid: c0f36d6caffeade45813360a0635306d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 791679849}
     - targetCorrespondingSourceObject: {fileID: 3891346998999318681, guid: c0f36d6caffeade45813360a0635306d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1049002807}

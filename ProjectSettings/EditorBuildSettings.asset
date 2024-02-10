@@ -30,15 +30,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Patient Assessment/PA7.unity
     guid: 39a54af299f9bdb40b5a9947432ae8cc
   - enabled: 1
-    path: Assets/Scenes/Patient Assessment/PA8 .1.unity
-    guid: 29793414ba1ade14da842084c62fe8b4
-  - enabled: 1
-    path: Assets/Scenes/Patient Assessment/PA9.2.unity
-    guid: d1f7df84b4bf0af4f9b2db7d0621da24
-  - enabled: 1
-    path: Assets/Scenes/Patient Assessment/PA10.3.unity
-    guid: beeec75d377998d409f23fb1817783ac
-  - enabled: 1
     path: Assets/Scenes/Rapid Assessment/Rapid1.unity
     guid: 544ca7cbdb963b846ba072eaca7e5d86
   - enabled: 1
@@ -59,6 +50,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Rapid Assessment/Rapid7.unity
     guid: a9de16c32b3143443891a6093c7f08e5
+  - enabled: 1
+    path: Assets/Scenes/Patient Assessment/PA8.1.unity
+    guid: 29793414ba1ade14da842084c62fe8b4
+  - enabled: 1
+    path: Assets/Scenes/Patient Assessment/PA9.2.unity
+    guid: d1f7df84b4bf0af4f9b2db7d0621da24
+  - enabled: 1
+    path: Assets/Scenes/Patient Assessment/PA10.3.unity
+    guid: beeec75d377998d409f23fb1817783ac
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 17d0f845a4302034f9995f74e941a931, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5d282cc6b1b62e246a1eb24b2776ec14, type: 2}
