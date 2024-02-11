@@ -17,13 +17,25 @@ public class ItemSummon : MonoBehaviour
         int i = 0;
         if (values[0] == "get")
         {
-            if (values[1] == "c-collar")
+            if (values[1] == "flashlight")
             {
                 i = 0;
             }
-            else if (values[1] == "flashlight")
+            else if (values[1] == "c-collar")
             {
                 i = 1;
+            }
+            else if (values[1] == "stethoscope")
+            {
+                i = 2;
+            }
+            else if (values[1] == "thermometer")
+            {
+                i = 3;
+            }
+            else if (values[1] == "sphygmomanometer")
+            {
+                i = 4;
             }
         }
         else
@@ -38,13 +50,25 @@ public class ItemSummon : MonoBehaviour
         int i = 0;
         if (values[0] == "return")
         {
-            if (values[1] == "c-collar")
+            if (values[1] == "flashlight")
             {
                 i = 0;
             }
-            else if (values[1] == "flashlight")
+            else if (values[1] == "c-collar")
             {
                 i = 1;
+            }
+            else if (values[1] == "stethoscope")
+            {
+                i = 2;
+            }
+            else if (values[1] == "thermometer")
+            {
+                i = 3;
+            }
+            else if (values[1] == "sphygmomanometer")
+            {
+                i = 4;
             }
         }
         else
