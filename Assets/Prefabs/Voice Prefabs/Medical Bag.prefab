@@ -721,7 +721,7 @@ MonoBehaviour:
   - {fileID: 1126482249196396266}
   - {fileID: 2927387124141589012}
   delayTime: 0
-  distanceValue: 0.5
+  distanceValue: 0.3
 --- !u!1 &1242040812107198692
 GameObject:
   m_ObjectHideFlags: 0
@@ -3624,7 +3624,7 @@ PrefabInstance:
       addedObject: {fileID: 8672925573214232293}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 995d0138b69161d438ec4e9a5f6e7a8c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7284149110447670154}
+      addedObject: {fileID: 4976772779061229060}
   m_SourcePrefab: {fileID: 100100000, guid: 995d0138b69161d438ec4e9a5f6e7a8c, type: 3}
 --- !u!4 &1671400834070012068 stripped
 Transform:
@@ -3657,7 +3657,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7284149110447670154
+--- !u!114 &4976772779061229060
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3687,8 +3687,6 @@ MonoBehaviour:
   objectsToActivate:
   - {fileID: 1126482249196396266}
   - {fileID: 2927387124141589012}
-  - {fileID: 0}
-  - {fileID: 0}
   objectsToDeactivate:
   - {fileID: 4625101730964661650}
   delayTime: 0
