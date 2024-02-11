@@ -20,9 +20,9 @@ MonoBehaviour:
     isPrivate: 0
     createdAt: 2024-02-07T03:49:43-0800
     trainingStatus: 1
-    lastTrainDuration: 167
-    lastTrainedAt: 2024-02-11T02:01:48-0800
-    nextTrainAt: 2024-02-11T01:59:01-0800
+    lastTrainDuration: 64
+    lastTrainedAt: 2024-02-11T03:26:50-0800
+    nextTrainAt: 2024-02-11T03:25:46-0800
     intents:
     - id: 392222150165413
       name: get_item
@@ -38,9 +38,6 @@ MonoBehaviour:
       entities:
       - name: about:about
         id: 1512982795944705
-    - id: 405729172137680
-      name: return
-      entities: []
     - id: 1131910827700363
       name: return_item
       entities:
@@ -64,7 +61,9 @@ MonoBehaviour:
         id: 3794334510786887
     - id: 982794486570994
       name: say_prev
-      entities: []
+      entities:
+      - name: previous:previous
+        id: 258537227272564
     - id: 724384882801470
       name: say_yes
       entities:
