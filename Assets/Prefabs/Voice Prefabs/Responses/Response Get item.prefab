@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1348933299589266782
+--- !u!1 &5817149799817125702
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2941367435551047151}
-  - component: {fileID: 7925878212472896657}
+  - component: {fileID: 7697534968457125879}
+  - component: {fileID: 3457802861106650761}
   m_Layer: 0
   m_Name: Response Get item
   m_TagString: Untagged
@@ -17,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &2941367435551047151
+--- !u!224 &7697534968457125879
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1348933299589266782}
+  m_GameObject: {fileID: 5817149799817125702}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -36,13 +36,13 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &7925878212472896657
+--- !u!114 &3457802861106650761
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1348933299589266782}
+  m_GameObject: {fileID: 5817149799817125702}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 591c3d6f017c11b4faa41506d75635b9, type: 3}
@@ -53,7 +53,7 @@ MonoBehaviour:
   intent: get_item
   confidenceThreshold: 0.6
   valueMatchers:
-  - path: entities.Get:Get[0].type
+  - path: entities.Get:Get[0].value
     witValueReference: {fileID: 0}
     contentRequired: 1
     matchMethod: 0
@@ -62,7 +62,7 @@ MonoBehaviour:
     floatingPointComparisonTolerance: 0.00009999999747378752
     allowConfidenceOverlap: 0
     confidenceRanges: []
-  - path: entities.Item:Item[0].id
+  - path: entities.Item:Item[0].value
     witValueReference: {fileID: 0}
     contentRequired: 1
     matchMethod: 0
