@@ -20,9 +20,9 @@ MonoBehaviour:
     isPrivate: 0
     createdAt: 2024-02-07T03:49:43-0800
     trainingStatus: 1
-    lastTrainDuration: 22
-    lastTrainedAt: 2024-02-11T01:20:26-0800
-    nextTrainAt: 2024-02-11T01:20:04-0800
+    lastTrainDuration: 167
+    lastTrainedAt: 2024-02-11T02:01:48-0800
+    nextTrainAt: 2024-02-11T01:59:01-0800
     intents:
     - id: 392222150165413
       name: get_item
@@ -31,11 +31,16 @@ MonoBehaviour:
         id: 1762953380892195
       - name: Item:Item
         id: 1898322677232566
+      - name: return:return
+        id: 929473198585894
     - id: 242776015467361
       name: open_about
       entities:
       - name: about:about
         id: 1512982795944705
+    - id: 405729172137680
+      name: return
+      entities: []
     - id: 1131910827700363
       name: return_item
       entities:
@@ -124,12 +129,22 @@ MonoBehaviour:
         - flashlight
         - lamp
         - light
+      - keyword: sphygmomanometer
+        synonyms:
+        - bp
+        - sphyg
+        - sphygmomanometer
       - keyword: stethoscope
         synonyms:
         - auscultator
         - steth
         - stethophone
         - stethoscope
+      - keyword: thermometer
+        synonyms:
+        - therm
+        - thermo
+        - thermometer
     - name: about
       id: 1433501647519594
       lookups:

@@ -1,12 +1,13 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class ObjectCounter : MonoBehaviour
 {
     private int objectCount = 10;
     public TextController textController; // Reference to your TextController script
     public Canvas currentObjective;
-    public Canvas objectiveComplete;
+    public List<GameObject> objectiveComplete;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -28,12 +29,15 @@ public class ObjectCounter : MonoBehaviour
 
             if(objectCount == 10)
             {
-                if(objectiveComplete != null)
+                foreach (GameObject gameObject in objectiveComplete)
                 {
-                    objectiveComplete.gameObject.SetActive(true);
+                    if (gameObject != null)
+                    {
+                        gameObject.gameObject.SetActive(true);
+                    }
                 }
 
-                if(currentObjective != null)
+                if (currentObjective != null)
                 {
                     currentObjective.gameObject.SetActive(false);
                 }
