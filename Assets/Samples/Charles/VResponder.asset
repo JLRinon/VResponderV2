@@ -20,9 +20,9 @@ MonoBehaviour:
     isPrivate: 0
     createdAt: 2024-02-07T03:49:43-0800
     trainingStatus: 1
-    lastTrainDuration: 189
-    lastTrainedAt: 2024-02-10T08:46:57-0800
-    nextTrainAt: 2024-02-10T08:43:48-0800
+    lastTrainDuration: 22
+    lastTrainedAt: 2024-02-11T01:20:26-0800
+    nextTrainAt: 2024-02-11T01:20:04-0800
     intents:
     - id: 392222150165413
       name: get_item
@@ -31,9 +31,6 @@ MonoBehaviour:
         id: 1762953380892195
       - name: Item:Item
         id: 1898322677232566
-    - id: 1873545806418009
-      name: move
-      entities: []
     - id: 242776015467361
       name: open_about
       entities:
@@ -73,6 +70,11 @@ MonoBehaviour:
       entities:
       - name: help:help
         id: 1140979253936443
+    - id: 1559081801595418
+      name: to_move
+      entities:
+      - name: move:move
+        id: 939470414445089
     - id: 2115983738765897
       name: to_play
       entities:
@@ -116,18 +118,18 @@ MonoBehaviour:
         - cervical collar
         - collar
         - neck collar
-      - keyword: collar
-        synonyms:
-        - collar
       - keyword: flashlight
         synonyms:
         - flash
         - flashlight
         - lamp
         - light
-      - keyword: light
+      - keyword: stethoscope
         synonyms:
-        - light
+        - auscultator
+        - steth
+        - stethophone
+        - stethoscope
     - name: about
       id: 1433501647519594
       lookups:
@@ -157,6 +159,19 @@ MonoBehaviour:
         - aid
         - guide
         - help
+    - name: move
+      id: 398380236102708
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: move
+        id: 939470414445089
+      keywords:
+      - keyword: move
+        synonyms:
+        - back
+        - move
     - name: next
       id: 417399274184394
       lookups:
