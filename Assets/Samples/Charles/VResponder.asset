@@ -20,9 +20,9 @@ MonoBehaviour:
     isPrivate: 0
     createdAt: 2024-02-07T03:49:43-0800
     trainingStatus: 1
-    lastTrainDuration: 64
-    lastTrainedAt: 2024-02-11T03:26:50-0800
-    nextTrainAt: 2024-02-11T03:25:46-0800
+    lastTrainDuration: 161
+    lastTrainedAt: 2024-02-11T10:38:23-0800
+    nextTrainAt: 2024-02-11T10:35:42-0800
     intents:
     - id: 392222150165413
       name: get_item
@@ -31,8 +31,18 @@ MonoBehaviour:
         id: 1762953380892195
       - name: Item:Item
         id: 1898322677232566
-      - name: return:return
-        id: 929473198585894
+    - id: 866178285261120
+      name: move_position
+      entities:
+      - name: position:position
+        id: 1391532644798050
+    - id: 900424044915627
+      name: next_page
+      entities:
+      - name: number:number
+        id: 399552209245405
+      - name: page:page
+        id: 1119732992537665
     - id: 242776015467361
       name: open_about
       entities:
@@ -48,12 +58,8 @@ MonoBehaviour:
     - id: 398766852832489
       name: say_next
       entities:
-      - name: about:about
-        id: 1512982795944705
       - name: next:next
         id: 385014204225209
-      - name: previous:previous
-        id: 258537227272564
     - id: 1151070259392043
       name: say_no
       entities:
@@ -79,6 +85,8 @@ MonoBehaviour:
       entities:
       - name: move:move
         id: 939470414445089
+      - name: position:position
+        id: 1391532644798050
     - id: 2115983738765897
       name: to_play
       entities:
@@ -99,6 +107,9 @@ MonoBehaviour:
       - name: Get
         id: 1762953380892195
       keywords:
+      - keyword: enable
+        synonyms:
+        - enable
       - keyword: get
         synonyms:
         - acquire
@@ -122,11 +133,20 @@ MonoBehaviour:
         - cervical collar
         - collar
         - neck collar
+      - keyword: cervical collar
+        synonyms:
+        - cervical collar
+      - keyword: flash
+        synonyms:
+        - flash
       - keyword: flashlight
         synonyms:
         - flash
         - flashlight
         - lamp
+        - light
+      - keyword: light
+        synonyms:
         - light
       - keyword: sphygmomanometer
         synonyms:
@@ -184,8 +204,10 @@ MonoBehaviour:
       keywords:
       - keyword: move
         synonyms:
-        - back
+        - go
         - move
+        - tabe
+        - turn
     - name: next
       id: 417399274184394
       lookups:
@@ -198,6 +220,7 @@ MonoBehaviour:
       - keyword: next
         synonyms:
         - continue
+        - done
         - keep going
         - next
         - proceed
@@ -219,6 +242,42 @@ MonoBehaviour:
         - nooo
         - noooo
         - nooooo
+    - name: number
+      id: 906983531020361
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: number
+        id: 399552209245405
+      keywords:
+      - keyword: one
+        synonyms:
+        - first
+        - one
+      - keyword: three
+        synonyms:
+        - third
+        - three
+      - keyword: two
+        synonyms:
+        - second
+        - two
+    - name: page
+      id: 1081755712946826
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: page
+        id: 1119732992537665
+      keywords:
+      - keyword: pag
+        synonyms:
+        - pag
+      - keyword: page
+        synonyms:
+        - page
     - name: play
       id: 2704860262996694
       lookups:
@@ -233,6 +292,31 @@ MonoBehaviour:
         - begin
         - play
         - start
+    - name: position
+      id: 340241459007470
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: position
+        id: 1391532644798050
+      keywords:
+      - keyword: back
+        synonyms:
+        - back
+        - backward
+      - keyword: forward
+        synonyms:
+        - forward
+        - onward
+      - keyword: left
+        synonyms:
+        - left
+        - leftward
+      - keyword: right
+        synonyms:
+        - right
+        - rightward
     - name: previous
       id: 919248772768685
       lookups:
