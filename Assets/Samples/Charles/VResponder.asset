@@ -20,9 +20,9 @@ MonoBehaviour:
     isPrivate: 0
     createdAt: 2024-02-07T03:49:43-0800
     trainingStatus: 1
-    lastTrainDuration: 161
-    lastTrainedAt: 2024-02-11T10:38:23-0800
-    nextTrainAt: 2024-02-11T10:35:42-0800
+    lastTrainDuration: 61
+    lastTrainedAt: 2024-02-12T04:06:07-0800
+    nextTrainAt: 2024-02-12T04:05:06-0800
     intents:
     - id: 392222150165413
       name: get_item
@@ -107,9 +107,6 @@ MonoBehaviour:
       - name: Get
         id: 1762953380892195
       keywords:
-      - keyword: enable
-        synonyms:
-        - enable
       - keyword: get
         synonyms:
         - acquire
@@ -134,27 +131,15 @@ MonoBehaviour:
         - cervical collar
         - collar
         - neck collar
-<<<<<<< Updated upstream
-      - keyword: cervical collar
-        synonyms:
-        - cervical collar
-      - keyword: flash
-        synonyms:
-        - flash
-=======
       - keyword: extrication device
         synonyms:
         - extrication
         - extrication device
->>>>>>> Stashed changes
       - keyword: flashlight
         synonyms:
         - flash
         - flashlight
         - lamp
-        - light
-      - keyword: light
-        synonyms:
         - light
       - keyword: sphygmomanometer
         synonyms:
