@@ -117,6 +117,7 @@ MonoBehaviour:
         - enable
         - get
         - obtain
+        - spawn
         - summon
     - name: Item
       id: 887223993086461
@@ -133,12 +134,19 @@ MonoBehaviour:
         - cervical collar
         - collar
         - neck collar
+<<<<<<< Updated upstream
       - keyword: cervical collar
         synonyms:
         - cervical collar
       - keyword: flash
         synonyms:
         - flash
+=======
+      - keyword: extrication device
+        synonyms:
+        - extrication
+        - extrication device
+>>>>>>> Stashed changes
       - keyword: flashlight
         synonyms:
         - flash
@@ -153,6 +161,10 @@ MonoBehaviour:
         - bp
         - sphyg
         - sphygmomanometer
+      - keyword: spinal board
+        synonyms:
+        - spinal
+        - spinal board
       - keyword: stethoscope
         synonyms:
         - auscultator
