@@ -1320,7 +1320,11 @@ MonoBehaviour:
       m_Calls: []
   m_text: Objective Completed
   m_isRightToLeft: 0
+<<<<<<< Updated upstream
   m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+=======
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+>>>>>>> Stashed changes
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3593,8 +3597,13 @@ MonoBehaviour:
     inventory and then evaluate check if the straps are all applied in the victim''s
     body. '
   m_isRightToLeft: 0
+<<<<<<< Updated upstream
   m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+=======
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+>>>>>>> Stashed changes
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3886,7 +3895,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: C-COLLAR
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3950,7 +3959,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &285234182
@@ -6170,8 +6179,13 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
+<<<<<<< Updated upstream
   m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+=======
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+>>>>>>> Stashed changes
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6234,7 +6248,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &579509165
@@ -7941,7 +7955,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: INVENTORY
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -8005,7 +8019,7 @@ MonoBehaviour:
   m_margin: {x: -18.491539, y: 0, z: -17.57813, w: -62.85788}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &747743956
@@ -8442,7 +8456,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: SAMPLE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -8506,7 +8520,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &778726556
@@ -8846,8 +8860,13 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
+<<<<<<< Updated upstream
   m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+=======
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+>>>>>>> Stashed changes
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10452,7 +10471,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: SAMPLE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -10516,7 +10535,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1008377516
@@ -10764,6 +10783,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9168142743249570444, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+      propertyPath: m_MoveSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168142743249570444, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LeftControllerTransform
       value: 
       objectReference: {fileID: 0}
@@ -10830,7 +10853,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.8, y: 19.4}
+  m_AnchoredPosition: {x: 2.6, y: 17.8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1025554535
@@ -10857,8 +10880,8 @@ MonoBehaviour:
     Straps\r\n   Torso - Top strap\r\n   Torso - Middle strap\r\n   Torso - Bottom
     strap\r\n   Legs Straps"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12004,7 +12027,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: extrication device
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -12068,7 +12091,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1083808077
@@ -12148,8 +12171,13 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
+<<<<<<< Updated upstream
   m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+=======
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+>>>>>>> Stashed changes
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13332,8 +13360,13 @@ MonoBehaviour:
     the Inventory and snap it into the indicator. Click the button extricate to move
     the patient into spinal board.  '
   m_isRightToLeft: 0
+<<<<<<< Updated upstream
   m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+=======
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+>>>>>>> Stashed changes
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13396,7 +13429,7 @@ MonoBehaviour:
   m_margin: {x: -18.491539, y: 0, z: -17.57813, w: -62.85788}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1259854776
@@ -13579,7 +13612,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: BACK
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -13643,7 +13676,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1285054203
@@ -13820,7 +13853,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: EXTRICATE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -13884,7 +13917,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1328206641
@@ -16741,8 +16774,13 @@ MonoBehaviour:
       m_Calls: []
   m_text: Done
   m_isRightToLeft: 0
+<<<<<<< Updated upstream
   m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+=======
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+>>>>>>> Stashed changes
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16805,7 +16843,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1629521478
@@ -16876,8 +16914,8 @@ MonoBehaviour:
   m_text: "Welcome to RAPID EXTRICATION\n\nGoal 4\n\n1. Properly apply and use extrication
     device. \n2. safely extricate patient from vehicle"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18907,7 +18945,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Spinal Board
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -18971,7 +19009,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1816894167
@@ -19041,7 +19079,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Already Used.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -19105,7 +19143,7 @@ MonoBehaviour:
   m_margin: {x: -18.491539, y: 0, z: -17.57813, w: -62.85788}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1817595472
@@ -19905,7 +19943,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: FLASHLIGHT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: 7e55f19e661352a46ac43b5be035068b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -19969,7 +20007,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1904176061
