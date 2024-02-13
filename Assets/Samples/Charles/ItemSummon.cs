@@ -37,6 +37,14 @@ public class ItemSummon : MonoBehaviour
             {
                 i = 4;
             }
+            else if (values[1] == "spinal board")
+            {
+                i = 5;
+            }
+            else if (values[1] == "extrication device")
+            {
+                i = 6;
+            }
         }
         else
             print("Not Working");
@@ -69,6 +77,14 @@ public class ItemSummon : MonoBehaviour
             else if (values[1] == "sphygmomanometer")
             {
                 i = 4;
+            }
+            else if (values[1] == "spinal board")
+            {
+                i = 5;
+            }
+            else if (values[1] == "extrication device")
+            {
+                i = 6;
             }
         }
         else
