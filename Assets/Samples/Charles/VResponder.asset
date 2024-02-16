@@ -653,7 +653,7 @@ MonoBehaviour:
     _event: 
     _converse: 
   isDemoOnly: 0
-  useConduit: 1
+  useConduit: 0
   _manifestLocalPath: ConduitManifest-283fd593-1839-4aba-afa8-ebbfede9a232.json
   excludedAssemblies:
   - Oculus.Voice.Demo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
