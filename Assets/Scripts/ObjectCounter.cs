@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class ObjectCounter : MonoBehaviour
 {
-    private int objectCount = 10;
+    private int objectCount = 5;
     public TextController textController; // Reference to your TextController script
     public Canvas currentObjective;
     public List<GameObject> objectiveComplete;
@@ -27,7 +27,7 @@ public class ObjectCounter : MonoBehaviour
             objectCount++;
             UpdateText();
 
-            if(objectCount == 10)
+            if(objectCount == 5)
             {
                 foreach (GameObject gameObject in objectiveComplete)
                 {
@@ -52,7 +52,7 @@ public class ObjectCounter : MonoBehaviour
         // Update the TextMeshPro text using your TextController
         if (textController != null)
         {
-            textController.UpdateText(objectCount, 10);
+            textController.UpdateText(objectCount, 5);
         }
     }
 }

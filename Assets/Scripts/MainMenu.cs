@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     //{FOR MAIN MENU --START--}
+
+    public void StartMainMenu()
+    {
+        SceneManager.LoadSceneAsync("MainMenu");
+    }
     public void StartSimulation()
     {
         SceneManager.LoadSceneAsync("LP1");
