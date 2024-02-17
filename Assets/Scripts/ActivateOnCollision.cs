@@ -6,9 +6,15 @@ public class ActivateOnCollision : MonoBehaviour
     [SerializeField] UnityEvent onTriggerEnter;
     [SerializeField] UnityEvent onTriggerExit;
 
+    bool hasTriggered = false;
+
     void OnTriggerEnter(Collider other)
     {
-        onTriggerEnter.Invoke();
+        if (!hasTriggered)
+        {
+            onTriggerEnter.Invoke();
+            hasTriggered = true;
+        }
     }
 
     void OnTriggerExit(Collider other)
