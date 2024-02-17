@@ -374,8 +374,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Your Objective is to check ABC. \n- Check trachea for alignment and inspect
-    back of the neck for bleeding.\n- Apply C-Collar properly."
+  m_text: "Your task is to assess ABC. \n- Ensure the alignment of the trachea and
+    examine the back of the neck for any signs of bleeding.\n- Properly apply the
+    C-Collar."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -849,7 +850,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Your Objective is to Introduce yourself and then check the patient's responsiveness
+  m_text: Your task is to introduce yourself and then assess the patient's responsiveness.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2516,7 +2517,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Note: C-Collar is inside your emergency bag'
+  m_text: 'Note: The C-Collar can be found inside your emergency bag.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2851,7 +2852,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: YOU SUCCESSFULLY SECURED THE SCENE
+  m_text: YOU SUCCESSFULLY COMPLETED THE OBJECTIVE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4472,6 +4473,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 746676234}
     - target: {fileID: 4432247392636030760, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: Voice
+      value: 
+      objectReference: {fileID: 1013980805}
+    - target: {fileID: 4432247392636030760, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
       propertyPath: onMultiValueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 123014855}
@@ -4507,6 +4512,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 746676233}
+    - target: {fileID: 5948411477465081930, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: Voice
+      value: 
+      objectReference: {fileID: 1013980805}
     - target: {fileID: 5948411477465081930, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
       propertyPath: onMultiValueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -8318,7 +8327,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: YOU SUCCESSFULLY SECURED THE SCENE
+  m_text: YOU SUCCESSFULLY COMPLETED THE OBJECTIVE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11468,7 +11477,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Your Objective is to Introduce yourself and then check the patient's responsiveness
+  m_text: "\rYour goal is to introduce yourself and then evaluate the patient's level
+    of responsiveness."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13422,7 +13432,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Apply C-Collar to the patient. It is located inside the emergency bag.
+  m_text: "\rPlace the C-Collar on the patient's neck. You can find it inside the
+    emergency bag."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14350,8 +14361,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Place your hand inside the indicator and use your middle finger to check
-    responsiveness.
+  m_text: Place your hand into the indicator and use your middle finger on the controller
+    to evaluate responsiveness.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

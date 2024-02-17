@@ -974,8 +974,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Your Objective is to  identify and remove 5 obstructions  within the scene
-    to ensure a safe and unobstructed area.
+  m_text: Your task is to recognize and eliminate five obstacles within the scene
+    to guarantee a safe and clear area.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7220,8 +7220,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Remove unnecessary things inside the blue area (tools, boxes, ladder) and
-    tell non rescuer to "move back"
+  m_text: Please clear the blue area of any unnecessary items such as tools, boxes,
+    and the ladder, and ask non-rescuers to move back.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
