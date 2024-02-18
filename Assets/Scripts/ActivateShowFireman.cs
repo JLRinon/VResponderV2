@@ -5,6 +5,7 @@ using UnityEngine;
 public class ActivateGameObjects : MonoBehaviour
 {
     public GameObject[] objectsToActivate;
+    public GameObject[] objectsToDeactivate;
 
     private void Start()
     {
@@ -26,6 +27,10 @@ public class ActivateGameObjects : MonoBehaviour
             foreach (GameObject obj in objectsToActivate)
             {
                 obj.SetActive(true);
+            }
+            foreach (GameObject obj in objectsToDeactivate)
+            {
+                obj.SetActive(false);
             }
         }
     }

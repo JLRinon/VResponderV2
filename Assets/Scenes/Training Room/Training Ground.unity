@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18168569, g: 0.22362277, b: 0.28583324, a: 1}
+  m_IndirectSpecularColor: {r: 0.18168612, g: 0.22362353, b: 0.285834, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1764,6 +1764,7 @@ GameObject:
   - component: {fileID: 312207285}
   - component: {fileID: 312207284}
   - component: {fileID: 312207287}
+  - component: {fileID: 312207288}
   m_Layer: 0
   m_Name: Cube 2 (1)
   m_TagString: Untagged
@@ -1871,6 +1872,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8abf63137cada74da11bcd220aaf173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &312207288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312207282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!4 &343003406 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2851400368864935227, guid: df1a6bbf0f06d1a489b9cb2caaa4e331, type: 3}
@@ -2937,6 +2957,7 @@ GameObject:
   - component: {fileID: 444107247}
   - component: {fileID: 444107246}
   - component: {fileID: 444107245}
+  - component: {fileID: 444107248}
   m_Layer: 5
   m_Name: Canvas (2)
   m_TagString: Untagged
@@ -3027,6 +3048,25 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &444107248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444107243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &448661747
 GameObject:
   m_ObjectHideFlags: 0
@@ -3993,7 +4033,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &499517584
 Transform:
   m_ObjectHideFlags: 0
