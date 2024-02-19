@@ -1399,7 +1399,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -2894,7 +2894,7 @@ Rigidbody:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
@@ -6354,40 +6354,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 995d0138b69161d438ec4e9a5f6e7a8c, type: 3}
   m_PrefabInstance: {fileID: 1175105875}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &852535217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 852535213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f7371fb44a991c42bd38884117d57c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactionIndicator: {fileID: 1461710716}
-  referenceObject: {fileID: 1619997081}
-  showButton:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Show Button
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 33be5ca5-f6a8-45c5-b797-8252c3891f79
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  objectAnimator: {fileID: 0}
-  objectsToActivate:
-  - {fileID: 1023434088}
-  - {fileID: 1353172233}
-  objectsToDeactivate:
-  - {fileID: 1461710716}
-  delayTime: 0
-  distanceValue: 1.2
 --- !u!1 &853274867
 GameObject:
   m_ObjectHideFlags: 0
@@ -8720,9 +8686,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 995d0138b69161d438ec4e9a5f6e7a8c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 852535215}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 995d0138b69161d438ec4e9a5f6e7a8c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 852535217}
   m_SourcePrefab: {fileID: 100100000, guid: 995d0138b69161d438ec4e9a5f6e7a8c, type: 3}
 --- !u!4 &1186566037 stripped
 Transform:
@@ -12004,7 +11967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   snapPoints:
   - {fileID: 826578078}
-  snapDistance: 0.1
+  snapDistance: 0.5
   objectToActivate: {fileID: 653046223}
   objectToDeactivate: {fileID: 1572465670}
   objectWithMeshRenderer: {fileID: 826578077}
@@ -14520,7 +14483,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -14873,7 +14836,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
