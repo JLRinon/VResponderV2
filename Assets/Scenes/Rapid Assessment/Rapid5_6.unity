@@ -5990,31 +5990,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c6477434d40541e4a9f991bbead0c1af, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 145.79
+      value: 136.36
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6477434d40541e4a9f991bbead0c1af, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6477434d40541e4a9f991bbead0c1af, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -68.7
+      value: -70.54
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6477434d40541e4a9f991bbead0c1af, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.50401545
+      value: 0.6940252
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6477434d40541e4a9f991bbead0c1af, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000000021887063
+      value: -0.0000000021660675
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6477434d40541e4a9f991bbead0c1af, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.86369467
+      value: 0.7199507
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6477434d40541e4a9f991bbead0c1af, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000022220625
+      value: 0.0000000021990545
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6477434d40541e4a9f991bbead0c1af, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6022,7 +6022,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6477434d40541e4a9f991bbead0c1af, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -240.532
+      value: -267.899
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6477434d40541e4a9f991bbead0c1af, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -8073,14 +8073,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 743840802}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000047011316, y: -0.7141271, z: -0.00000010193502, w: 0.7000161}
-  m_LocalPosition: {x: 0, y: 1.8, z: -4.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.000000045233687, y: -0.9999883, z: -0.00000009808052, w: -0.004840207}
+  m_LocalPosition: {x: -3.48, y: 1.8, z: -4.43}
+  m_LocalScale: {x: 0.61109, y: 0.61109, z: 0.61109}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 325739815}
   m_Father: {fileID: 2128733639}
-  m_LocalEulerAnglesHint: {x: 0, y: -91.143, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180.555, z: 0}
 --- !u!1 &755726033
 GameObject:
   m_ObjectHideFlags: 0
@@ -16887,16 +16887,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1643098996}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: -2.5121479e-15, y: 1, z: -2.5121479e-15, w: 0.000000119209275}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.34192616, y: 0.30393437, z: 0.30393437}
+  m_LocalScale: {x: 0.3419262, y: 0.5526079, z: 0.30393443}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2101613672}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 37.1}
+  m_AnchoredPosition: {x: 0, y: 29.1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1643098998
@@ -16919,8 +16919,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Welcome to RAPID EXTRICATION\n\nGoal 6\n\n1. Properly apply and use extrication
-    device. \n2. safely extricate patient from vehicle\n3. Secure Extremities"
+  m_text: 'Welcome to RAPID EXTRICATION
+
+
+    Goal 6
+
+
+    1. Safely extricate patient
+    from vehicle
+
+    2. Secure Extremities'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -19895,31 +19903,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fdb20f496d5e9743acac6e42ca01507, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.57
+      value: -4.84
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fdb20f496d5e9743acac6e42ca01507, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fdb20f496d5e9743acac6e42ca01507, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.76
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fdb20f496d5e9743acac6e42ca01507, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.0080581
+      value: 0.7165769
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fdb20f496d5e9743acac6e42ca01507, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.00000006008301
+      value: 0.00000008428601
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fdb20f496d5e9743acac6e42ca01507, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9999676
+      value: 0.6975082
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fdb20f496d5e9743acac6e42ca01507, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000060083
+      value: 0.00000008428603
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fdb20f496d5e9743acac6e42ca01507, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19927,7 +19935,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fdb20f496d5e9743acac6e42ca01507, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 179.077
+      value: 88.455
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fdb20f496d5e9743acac6e42ca01507, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -20785,6 +20793,12 @@ PrefabInstance:
     - {fileID: -8647491669719911370, guid: 4e16526150a90b94380f8171873e8a14, type: 3}
     - {fileID: -2387564670797404894, guid: 4e16526150a90b94380f8171873e8a14, type: 3}
     - {fileID: -1184956534980760879, guid: 4e16526150a90b94380f8171873e8a14, type: 3}
+    - {fileID: 1978023588441601215, guid: 4e16526150a90b94380f8171873e8a14, type: 3}
+    - {fileID: 700117947859111838, guid: 4e16526150a90b94380f8171873e8a14, type: 3}
+    - {fileID: 8360698717945409221, guid: 4e16526150a90b94380f8171873e8a14, type: 3}
+    - {fileID: 1135617495953143558, guid: 4e16526150a90b94380f8171873e8a14, type: 3}
+    - {fileID: 5392628802860931991, guid: 4e16526150a90b94380f8171873e8a14, type: 3}
+    - {fileID: -6709736125346196547, guid: 4e16526150a90b94380f8171873e8a14, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e16526150a90b94380f8171873e8a14, type: 3}
@@ -22233,7 +22247,7 @@ RectTransform:
   m_GameObject: {fileID: 2101613671}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.009501394, y: 0.125, z: 0.575}
+  m_LocalScale: {x: 0.009501394, y: 0.06875, z: 0.575}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1643098997}
@@ -22241,7 +22255,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -0, y: 2.02}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2101613673
@@ -22257,7 +22271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.6326547, b: 0, a: 0.77254903}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
