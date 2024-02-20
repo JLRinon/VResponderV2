@@ -5,48 +5,32 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    private SceneTransitionManager transitionManager;
-
-    private void Start()
-    {
-        // Find the SceneTransitionManager in the scene
-        transitionManager = FindObjectOfType<SceneTransitionManager>();
-    }
-
     //{FOR MAIN MENU --START--}
 
     public void StartMainMenu()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("MainMenu");
+        SceneManager.LoadSceneAsync("MainMenu");
     }
-
     public void StartSimulation()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("LP1");
+        SceneManager.LoadSceneAsync("LP1");
     }
-
     public void QuitSimulation()
     {
-        // Quit the application
         Application.Quit();
     }
-
     //{FOR MAIN MENU --END--}
 
 
     //{FOR LANDING PAGE --START--}
     public void StartPA()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("PA1");
+        SceneManager.LoadSceneAsync("PA1");
     }
 
     public void StartRapid()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("Rapid1");
+        SceneManager.LoadSceneAsync("Rapid1");
     }
 
     //{FOR LANDING PAGE --END--}
@@ -55,50 +39,35 @@ public class MainMenu : MonoBehaviour
     //{FOR PATIENT ASSESSMENT --START--}
     public void StartPatientassessment2()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("PA2");
+        SceneManager.LoadSceneAsync("PA2");
     }
-
     public void StartPatientassessment3and4()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("PA3N4");
+        SceneManager.LoadSceneAsync("PA3N4");
     }
-
     public void StartPatientassessment5()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("PA5");
+        SceneManager.LoadSceneAsync("PA5");
     }
-
     public void StartPatientassessment6()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("PA6");
+        SceneManager.LoadSceneAsync("PA6");
     }
-
     public void StartPatientassessment7()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("PA7");
+        SceneManager.LoadSceneAsync("PA7");
     }
-
     public void StartPatientassessment8_1()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("PA8.1");
+        SceneManager.LoadSceneAsync("PA8.1");
     }
-
     public void StartPatientassessment9_2()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("PA9.2");
+        SceneManager.LoadSceneAsync("PA9.2");
     }
-
     public void StartPatientassessment10_3()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("PA10.3");
+        SceneManager.LoadSceneAsync("PA10.3");
     }
 
 
@@ -109,38 +78,27 @@ public class MainMenu : MonoBehaviour
     //{FOR RAPID EXTRICATION --START--}
     public void StartRapid2()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("Rapid2");
+        SceneManager.LoadSceneAsync("Rapid2");
     }
-
     public void StartRapid3()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("Rapid3");
+        SceneManager.LoadSceneAsync("Rapid3");
     }
-
     public void StartRapid4()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("Rapid4");
+        SceneManager.LoadSceneAsync("Rapid4");
     }
-
     public void StartRapid5()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("Rapid5");
+        SceneManager.LoadSceneAsync("Rapid5");
     }
-
     public void StartRapid5_6()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("Rapid5_6");
+        SceneManager.LoadSceneAsync("Rapid5_6");
     }
-
     public void StartRapid7()
     {
-        // Call the LoadScene method of SceneTransitionManager with the scene name
-        transitionManager.LoadScene("Rapid7");
+        SceneManager.LoadSceneAsync("Rapid7");
     }
     //{FOR RAPID EXTRICATION --END--}
 }
