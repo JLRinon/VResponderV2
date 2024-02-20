@@ -473,13 +473,40 @@ PrefabInstance:
       propertyPath: snapPoints.Array.data[0]
       value: 
       objectReference: {fileID: 1795584192}
+    - target: {fileID: 4855805390310504147, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      propertyPath: m_SmoothScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855805390310504147, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      propertyPath: m_MovementType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855805390310504147, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      propertyPath: m_ThrowOnDetach
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855805390310504147, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      propertyPath: m_SmoothPosition
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855805390310504147, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      propertyPath: m_SmoothRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855805390310504147, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      propertyPath: m_AttachTransform
+      value: 
+      objectReference: {fileID: 1306399311}
     - target: {fileID: 9158942402602745582, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
       propertyPath: m_Name
       value: LP_Cone 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 409154684036397928, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1306399311}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
 --- !u!4 &62436016 stripped
@@ -4876,7 +4903,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &656429051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7722,15 +7749,73 @@ PrefabInstance:
       propertyPath: snapPoints.Array.data[0]
       value: 
       objectReference: {fileID: 351015548}
+    - target: {fileID: 4855805390310504147, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      propertyPath: m_SmoothScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855805390310504147, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      propertyPath: m_MovementType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855805390310504147, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      propertyPath: m_ThrowOnDetach
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855805390310504147, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      propertyPath: m_SmoothPosition
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855805390310504147, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      propertyPath: m_SmoothRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855805390310504147, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      propertyPath: m_AttachTransform
+      value: 
+      objectReference: {fileID: 1078320782}
     - target: {fileID: 9158942402602745582, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
       propertyPath: m_Name
       value: LP_Cone 1 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 409154684036397928, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1078320782}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff756cb5c1df22f448efd9ae3dde086a, type: 3}
+--- !u!1 &1078320781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1078320782}
+  m_Layer: 0
+  m_Name: Attach point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1078320782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078320781}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.70648944, y: 0, z: 0, w: 0.7077236}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0124}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1630315596}
+  m_LocalEulerAnglesHint: {x: 89.9, y: 0, z: 0}
 --- !u!1001 &1119922060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8508,7 +8593,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1300589186
 Transform:
   m_ObjectHideFlags: 0
@@ -8526,6 +8611,37 @@ Transform:
   - {fileID: 2033875516}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1306399310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1306399311}
+  m_Layer: 0
+  m_Name: Attach point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1306399311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306399310}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.70463425, y: 0, z: 0, w: 0.70957077}
+  m_LocalPosition: {x: 0, y: -0, z: 0.0116}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 229760573}
+  m_LocalEulerAnglesHint: {x: 89.6, y: 0, z: 0}
 --- !u!1 &1343320541
 GameObject:
   m_ObjectHideFlags: 0
@@ -11992,7 +12108,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1933339217
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13262,9 +13378,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 229760573}
-  - {fileID: 1795584192}
   - {fileID: 1630315596}
   - {fileID: 351015548}
+  - {fileID: 1795584192}
   m_Father: {fileID: 1300589186}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2033875517
