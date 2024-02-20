@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18168569, g: 0.22362277, b: 0.28583324, a: 1}
+  m_IndirectSpecularColor: {r: 0.18168612, g: 0.22362353, b: 0.285834, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -761,7 +761,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -1262,7 +1262,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -1737,7 +1737,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -2361,7 +2361,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -2689,7 +2689,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Insert your hand into the indicator and utilize your middle fingeron the
+  m_text: Insert your hand into the indicator and utilize your middle finger on the
     controller to maneuver the patient onto their side.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2803,7 +2803,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.5099088, y: 0.49747348, z: -0.48669508, w: 0.50560963}
   m_LocalPosition: {x: -0.09, y: 1.093, z: -0.323}
-  m_LocalScale: {x: 0.20703654, y: 0.20703645, z: 0.2070366}
+  m_LocalScale: {x: 0.33037493, y: 0.33037478, z: 0.33037502}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1079293861}
@@ -2848,7 +2848,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -3456,7 +3456,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -3853,7 +3853,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -4427,7 +4427,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -4736,7 +4736,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -5021,7 +5021,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -6933,15 +6933,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2f8d7942a10c3424b8f9af8dda094cc6, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3
+      value: 1.130274
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f8d7942a10c3424b8f9af8dda094cc6, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3
+      value: 1.130274
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f8d7942a10c3424b8f9af8dda094cc6, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3
+      value: 1.130274
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f8d7942a10c3424b8f9af8dda094cc6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7134,7 +7134,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -7460,7 +7460,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -8335,7 +8335,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -8721,7 +8721,7 @@ RectTransform:
   m_GameObject: {fileID: 864210817}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9951553, y: 0.9951553, z: 0.9951553}
+  m_LocalScale: {x: 1.954158, y: 1.954158, z: 1.954158}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 982936024}
@@ -9039,7 +9039,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -9307,7 +9307,7 @@ RectTransform:
   m_GameObject: {fileID: 957439465}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9951553, y: 0.9951553, z: 0.9951553}
+  m_LocalScale: {x: 1.954158, y: 1.954158, z: 1.954158}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 319663672}
@@ -9885,7 +9885,7 @@ RectTransform:
   m_GameObject: {fileID: 986964473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0433586, y: 1.0433586, z: 1.0433586}
+  m_LocalScale: {x: 1.954158, y: 1.954158, z: 1.954158}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 982936024}
@@ -10213,7 +10213,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.5099088, y: 0.49747348, z: -0.48669508, w: 0.50560963}
   m_LocalPosition: {x: 0.212, y: 0.789, z: -0.208}
-  m_LocalScale: {x: 0.20703654, y: 0.20703645, z: 0.2070366}
+  m_LocalScale: {x: 0.33037493, y: 0.33037478, z: 0.33037502}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1079293861}
@@ -10258,7 +10258,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -11292,7 +11292,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -12311,7 +12311,7 @@ RectTransform:
   m_GameObject: {fileID: 1200824094}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0433586, y: 1.0433586, z: 1.0433586}
+  m_LocalScale: {x: 1.954158, y: 1.954158, z: 1.954158}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 319663672}
@@ -13693,7 +13693,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -14699,7 +14699,7 @@ GameObject:
   - component: {fileID: 1495357552}
   - component: {fileID: 1495357551}
   - component: {fileID: 1495357554}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -14945,7 +14945,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -15103,7 +15103,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -15652,7 +15652,7 @@ RectTransform:
   m_GameObject: {fileID: 1590801368}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.69552016, y: 0.8444775, z: 0.8444775}
+  m_LocalScale: {x: 1.6094637, y: 1.9541576, z: 1.9541576}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 853274868}
@@ -15660,7 +15660,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -44}
+  m_AnchoredPosition: {x: 0, y: -88}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1590801370
@@ -15963,7 +15963,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -16376,15 +16376,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2f8d7942a10c3424b8f9af8dda094cc6, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3
+      value: 1.130274
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f8d7942a10c3424b8f9af8dda094cc6, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3
+      value: 1.130274
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f8d7942a10c3424b8f9af8dda094cc6, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3
+      value: 1.130274
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f8d7942a10c3424b8f9af8dda094cc6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17751,7 +17751,7 @@ RectTransform:
   m_GameObject: {fileID: 1890034577}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.69552016, y: 0.8444775, z: 0.8444775}
+  m_LocalScale: {x: 1.6094637, y: 1.9541576, z: 1.9541576}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1697330655}
@@ -17759,7 +17759,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -44}
+  m_AnchoredPosition: {x: 0, y: -88}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1890034579
@@ -18601,7 +18601,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.5099088, y: 0.49747348, z: -0.48669508, w: 0.50560963}
   m_LocalPosition: {x: -0.151, y: 0.787, z: -0.212}
-  m_LocalScale: {x: 0.20703654, y: 0.20703645, z: 0.2070366}
+  m_LocalScale: {x: 0.33037493, y: 0.33037478, z: 0.33037502}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1079293861}
@@ -18646,7 +18646,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -19235,7 +19235,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -19279,7 +19279,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.5099088, y: 0.49747348, z: -0.48669508, w: 0.50560963}
   m_LocalPosition: {x: 0.241, y: 1.095, z: -0.313}
-  m_LocalScale: {x: 0.20703654, y: 0.20703645, z: 0.2070366}
+  m_LocalScale: {x: 0.33037493, y: 0.33037478, z: 0.33037502}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1079293861}
@@ -19324,7 +19324,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0

@@ -45,6 +45,10 @@ public class ItemSummon : MonoBehaviour
             {
                 i = 6;
             }
+            else
+            {
+                print("Item not available");
+            }
         }
         else
             print("Not Working");
@@ -85,6 +89,10 @@ public class ItemSummon : MonoBehaviour
             else if (values[1] == "extrication device")
             {
                 i = 6;
+            }
+            else
+            {
+                print("Item not available");
             }
         }
         else

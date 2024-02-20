@@ -5,6 +5,7 @@ public class AreaSpeech : MonoBehaviour
     public AudioClip clip;
     private AudioSource source;
     public string targetTag;
+    public GameObject objectToActivate; // New field to reference the GameObject to activate
 
     // Start is called before the first frame update
     private void Start()
@@ -24,6 +25,12 @@ public class AreaSpeech : MonoBehaviour
 
             // Log a message to the console when the audio is playing
             Debug.Log("Audio is playing.");
+
+            // Activate the specified game object
+            if (objectToActivate != null)
+            {
+                objectToActivate.SetActive(true);
+            }
         }
     }
 }

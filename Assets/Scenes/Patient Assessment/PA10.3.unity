@@ -366,7 +366,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -940,7 +940,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -1620,7 +1620,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   snapPoints:
   - {fileID: 936423991}
-  snapDistance: 0.3
+  snapDistance: 0.5
   objectToActivate: {fileID: 293568175}
   objectToDeactivate: {fileID: 823127618}
   objectWithMeshRenderer: {fileID: 936423990}
@@ -2378,7 +2378,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -3033,7 +3033,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -4412,7 +4412,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -4708,7 +4708,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -5660,7 +5660,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -6033,7 +6033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   snapPoints:
   - {fileID: 1050740755}
-  snapDistance: 0.3
+  snapDistance: 0.5
   objectToActivate: {fileID: 823127618}
   objectToDeactivate: {fileID: 929371974}
   objectWithMeshRenderer: {fileID: 1356183281}
@@ -6310,7 +6310,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -7764,7 +7764,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -8599,17 +8599,29 @@ PrefabInstance:
       propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
+    - target: {fileID: 826969665143537856, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462388206696813859, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.092
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462388206696813859, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.708
+      objectReference: {fileID: 0}
     - target: {fileID: 1671400834070012068, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.062
       objectReference: {fileID: 0}
     - target: {fileID: 1671400834070012068, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 1671400834070012068, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 126.083
+      value: 124.86
       objectReference: {fileID: 0}
     - target: {fileID: 1671400834070012068, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8679,6 +8691,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2135989541019870594, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: snapDistance
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209165351793611153, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2244672189308169807, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 4
@@ -8711,6 +8731,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2670166967885511881, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2927387124141589012, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3846024230237493342, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -8727,6 +8755,10 @@ PrefabInstance:
       propertyPath: onMultiValueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1205856024}
+    - target: {fileID: 4625101730964661650, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4976772779061229060, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
       propertyPath: referenceObject
       value: 
@@ -8763,6 +8795,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
+    - target: {fileID: 5610825201903901314, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5948411477465081930, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
       propertyPath: Voice
       value: 
@@ -8791,6 +8827,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.69
       objectReference: {fileID: 0}
+    - target: {fileID: 6796426830220328461, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7313403102010225731, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7705882996855575895, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -8798,6 +8842,38 @@ PrefabInstance:
     - target: {fileID: 7705882996855575895, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 7898773311369017416, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 7898773311369017416, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.41169614
+      objectReference: {fileID: 0}
+    - target: {fileID: 7898773311369017416, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.91132116
+      objectReference: {fileID: 0}
+    - target: {fileID: 7898773311369017416, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7898773311369017416, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7898773311369017416, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1.043
+      objectReference: {fileID: 0}
+    - target: {fileID: 7898773311369017416, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 7898773311369017416, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 48.623
       objectReference: {fileID: 0}
     - target: {fileID: 8425954845516881443, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
       propertyPath: referenceObject
@@ -8819,6 +8895,18 @@ PrefabInstance:
       propertyPath: objectsToDeactivate.Array.data[3]
       value: 
       objectReference: {fileID: 1265735187}
+    - target: {fileID: 8672925573214232293, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895360214218713723, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895360214218713723, guid: a3a486d44e52f204e932fd937aef644c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9163,7 +9251,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -11361,7 +11449,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -13123,7 +13211,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -13263,7 +13351,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
