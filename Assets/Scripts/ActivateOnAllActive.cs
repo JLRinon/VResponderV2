@@ -1,11 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ActivateOnAllActive : MonoBehaviour
 {
     public GameObject[] objectsToMonitor;
     public GameObject objectToActivate;
+    public GameObject[] objectsToDeactivate;
+    public GameObject[] additionalObjectsToActivate;
 
     private bool[] objectStates;
 
@@ -33,6 +33,14 @@ public class ActivateOnAllActive : MonoBehaviour
         if (allActive)
         {
             objectToActivate.SetActive(true);
+            for (int i = 0; i < objectsToDeactivate.Length; i++)
+            {
+                objectsToDeactivate[i].SetActive(false);
+            }
+            for (int i = 0; i < additionalObjectsToActivate.Length; i++)
+            {
+                additionalObjectsToActivate[i].SetActive(true);
+            }
         }
         else
         {
