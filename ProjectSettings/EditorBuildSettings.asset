@@ -48,7 +48,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Rapid Assessment/Rapid5.unity
     guid: af2dcf455eef51d44b766a4b00823573
   - enabled: 1
-    path: Assets/Scenes/Rapid Assessment/Rapid5_6.unity
+    path: Assets/Scenes/Rapid Assessment/Rapid6.unity
     guid: 3377d4825b079fa4d9ad798d5d842451
   - enabled: 1
     path: Assets/Scenes/Rapid Assessment/Rapid7.unity
