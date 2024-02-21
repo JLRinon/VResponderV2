@@ -6,6 +6,7 @@ public class ActivateOnAllActive : MonoBehaviour
 {
     public GameObject[] objectsToMonitor;
     public GameObject objectToActivate;
+    public GameObject objectToDeactivate;
 
     private bool[] objectStates;
 
@@ -37,6 +38,20 @@ public class ActivateOnAllActive : MonoBehaviour
         else
         {
             objectToActivate.SetActive(false);
+        }
+
+        for (int i = 0; i < objectsToMonitor.Length; i++)
+        {
+            if (objectsToMonitor[i].activeSelf && !objectStates[i])
+            {
+                objectToDeactivate.SetActive(false);
+                break;
+            }
+        }
+
+        for (int i = 0; i < objectsToMonitor.Length; i++)
+        {
+            objectStates[i] = objectsToMonitor[i].activeSelf;
         }
     }
 }
