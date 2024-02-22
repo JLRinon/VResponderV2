@@ -5052,7 +5052,7 @@ PrefabInstance:
     - target: {fileID: 1731123773708244293, guid: 4d295806c4799da47b5714704cacb318, type: 3}
       propertyPath: head
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 71267475}
     - target: {fileID: 1731123773708244293, guid: 4d295806c4799da47b5714704cacb318, type: 3}
       propertyPath: menu
       value: 
@@ -5160,6 +5160,10 @@ PrefabInstance:
     - target: {fileID: 1988190338375370867, guid: 4d295806c4799da47b5714704cacb318, type: 3}
       propertyPath: m_Name
       value: Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1988190338375370867, guid: 4d295806c4799da47b5714704cacb318, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2368406226812117940, guid: 4d295806c4799da47b5714704cacb318, type: 3}
       propertyPath: m_LocalScale.x
@@ -7214,7 +7218,7 @@ MonoBehaviour:
   m_AllowHoverHapticsWhileSelecting: 1
   m_LineType: 0
   m_BlendVisualLinePoints: 1
-  m_MaxRaycastDistance: 10
+  m_MaxRaycastDistance: 100
   m_RayOriginTransform: {fileID: 0}
   m_ReferenceFrame: {fileID: 0}
   m_Velocity: 16
@@ -8434,9 +8438,9 @@ Transform:
   m_LocalScale: {x: 1, y: 2.6655, z: 2.9677687}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 536276938}
   - {fileID: 525010225}
   - {fileID: 2040161146}
-  - {fileID: 536276938}
   m_Father: {fileID: 1416894164}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &903887885
@@ -8456,7 +8460,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -8862,7 +8866,7 @@ Canvas:
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
-  m_OverrideSorting: 0
+  m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
@@ -10283,7 +10287,7 @@ MonoBehaviour:
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
+  m_DynamicPixelsPerUnit: 0
   m_PresetInfoIsWorld: 1
 --- !u!223 &1292437981
 Canvas:
@@ -10299,7 +10303,7 @@ Canvas:
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
-  m_OverrideSorting: 0
+  m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
@@ -13750,7 +13754,7 @@ MonoBehaviour:
   m_AllowHoverHapticsWhileSelecting: 1
   m_LineType: 0
   m_BlendVisualLinePoints: 1
-  m_MaxRaycastDistance: 10
+  m_MaxRaycastDistance: 100
   m_RayOriginTransform: {fileID: 0}
   m_ReferenceFrame: {fileID: 0}
   m_Velocity: 16

@@ -94,7 +94,7 @@ public class MainMenu : MonoBehaviour
     }
     public void StartRapid5_6()
     {
-        SceneManager.LoadSceneAsync("Rapid5_6");
+        SceneManager.LoadSceneAsync("Rapid6");
     }
     public void StartRapid7()
     {
