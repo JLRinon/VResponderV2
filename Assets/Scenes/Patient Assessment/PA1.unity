@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18168612, g: 0.22362353, b: 0.285834, a: 1}
+  m_IndirectSpecularColor: {r: 0.18168569, g: 0.22362277, b: 0.28583324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1296,12 +1296,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 223645538}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.98881906, z: -0, w: 0.14912078}
-  m_LocalPosition: {x: -0.06185652, y: 1.0818431, z: 0.02564168}
-  m_LocalScale: {x: 2.0849102, y: 2.084911, z: 2.0849102}
+  m_LocalRotation: {x: -0, y: 0.069096126, z: -0, w: 0.99761003}
+  m_LocalPosition: {x: 299.77484, y: 42.077515, z: -6.0431824}
+  m_LocalScale: {x: 836.75323, y: 836.75366, z: 836.75323}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 688015086}
+  m_Father: {fileID: 51894818}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &223645540
 Rigidbody:
@@ -5710,9 +5710,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2809046943148324761, guid: ccd34469096cb8d458e7d152a1c87182, type: 3}
       insertIndex: -1
       addedObject: {fileID: 51894818}
-    - targetCorrespondingSourceObject: {fileID: 2809046943148324761, guid: ccd34469096cb8d458e7d152a1c87182, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 223645539}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccd34469096cb8d458e7d152a1c87182, type: 3}
 --- !u!1001 &1175105875
@@ -6821,7 +6818,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7637990635627904041, guid: 01522baf97f24d743b7929587ba6f407, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8687187254350345383, guid: 01522baf97f24d743b7929587ba6f407, type: 3}
       insertIndex: 2
@@ -6829,6 +6827,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8687187254350345383, guid: 01522baf97f24d743b7929587ba6f407, type: 3}
       insertIndex: -1
       addedObject: {fileID: 991213851}
+    - targetCorrespondingSourceObject: {fileID: 8687187254350345383, guid: 01522baf97f24d743b7929587ba6f407, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 223645539}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01522baf97f24d743b7929587ba6f407, type: 3}
 --- !u!1001 &1487717291
