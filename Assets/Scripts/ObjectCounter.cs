@@ -5,7 +5,8 @@ using System.Collections.Generic;
 public class ObjectCounter : MonoBehaviour
 {
     private int objectCount = 5;
-    public TextController textController; // Reference to your TextController script
+    public int percentScore = 100;
+    public TextController textController; // Reference to TextController script
     public Canvas currentObjective;
     public List<GameObject> objectiveComplete;
 
@@ -15,6 +16,7 @@ public class ObjectCounter : MonoBehaviour
         if (other.CompareTag("CountableObject"))
         {
             objectCount--;
+            percentScore -= 20;
             UpdateText();
         }
     }
@@ -25,9 +27,10 @@ public class ObjectCounter : MonoBehaviour
         if (other.CompareTag("CountableObject"))
         {
             objectCount++;
+            percentScore += 20;
             UpdateText();
 
-            if(objectCount == 5)
+            if(objectCount >= 3)
             {
                 foreach (GameObject gameObject in objectiveComplete)
                 {
