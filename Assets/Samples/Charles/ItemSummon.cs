@@ -19,31 +19,31 @@ public class ItemSummon : MonoBehaviour
         {
             if (values[1] == "flashlight")
             {
-                i = 0;
+                i = 1;
             }
             else if (values[1] == "c-collar")
             {
-                i = 1;
+                i = 2;
             }
             else if (values[1] == "stethoscope")
             {
-                i = 2;
+                i = 3;
             }
             else if (values[1] == "thermometer")
             {
-                i = 3;
+                i = 4;
             }
             else if (values[1] == "sphygmomanometer")
             {
-                i = 4;
+                i = 5;
             }
             else if (values[1] == "spinal board")
             {
-                i = 5;
+                i = 6;
             }
             else if (values[1] == "extrication device")
             {
-                i = 6;
+                i = 7;
             }
             else
             {
@@ -64,31 +64,31 @@ public class ItemSummon : MonoBehaviour
         {
             if (values[1] == "flashlight")
             {
-                i = 0;
+                i = 1;
             }
             else if (values[1] == "c-collar")
             {
-                i = 1;
+                i = 2;
             }
             else if (values[1] == "stethoscope")
             {
-                i = 2;
+                i = 3;
             }
             else if (values[1] == "thermometer")
             {
-                i = 3;
+                i = 4;
             }
             else if (values[1] == "sphygmomanometer")
             {
-                i = 4;
+                i = 5;
             }
             else if (values[1] == "spinal board")
             {
-                i = 5;
+                i = 6;
             }
             else if (values[1] == "extrication device")
             {
-                i = 6;
+                i = 7;
             }
             else
             {

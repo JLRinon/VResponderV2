@@ -20,9 +20,9 @@ MonoBehaviour:
     isPrivate: 0
     createdAt: 2024-02-07T03:49:43-0800
     trainingStatus: 1
-    lastTrainDuration: 61
-    lastTrainedAt: 2024-02-12T04:06:07-0800
-    nextTrainAt: 2024-02-12T04:05:06-0800
+    lastTrainDuration: 68
+    lastTrainedAt: 2024-02-17T23:44:47-0800
+    nextTrainAt: 2024-02-17T23:43:39-0800
     intents:
     - id: 392222150165413
       name: get_item
@@ -73,6 +73,8 @@ MonoBehaviour:
     - id: 724384882801470
       name: say_yes
       entities:
+      - name: previous:previous
+        id: 258537227272564
       - name: yes:yes
         id: 1149958372695500
     - id: 1590153505161116
@@ -203,7 +205,6 @@ MonoBehaviour:
         synonyms:
         - go
         - move
-        - tabe
         - turn
     - name: next
       id: 417399274184394
@@ -325,7 +326,10 @@ MonoBehaviour:
       keywords:
       - keyword: previous
         synonyms:
+        - prev
         - previous
+        - previously
+        - previousss
     - name: quit
       id: 685697510153848
       lookups:
