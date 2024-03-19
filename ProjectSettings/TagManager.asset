@@ -21,6 +21,7 @@ TagManager:
   - OBJ7
   - Selectable
   - StopEngine
+  - Counter
   layers:
   - Default
   - TransparentFX
