@@ -5,101 +5,89 @@ using UnityEngine;
 public class ItemSummon : MonoBehaviour
 {
     [Header("Audio")]
-
     public AudioClip spawnSound;
 
     [Header("Items")]
-
     public List<GameObject> items;
 
     public void OnSummon(string[] values)
     {
-        int i = 0;
+        int i = -1; // Initialize i to an invalid index
+
         if (values[0] == "get")
         {
-            if (values[1] == "flashlight")
+            switch (values[1])
             {
-                i = 1;
-            }
-            else if (values[1] == "c-collar")
-            {
-                i = 2;
-            }
-            else if (values[1] == "stethoscope")
-            {
-                i = 3;
-            }
-            else if (values[1] == "thermometer")
-            {
-                i = 4;
-            }
-            else if (values[1] == "sphygmomanometer")
-            {
-                i = 5;
-            }
-            else if (values[1] == "spinal board")
-            {
-                i = 6;
-            }
-            else if (values[1] == "extrication device")
-            {
-                i = 7;
-            }
-            else
-            {
-                print("Item not available");
+                case "flashlight":
+                    i = 0; break;
+                case "c-collar":
+                    i = 1; break;
+                case "stethoscope":
+                    i = 2; break;
+                case "thermometer":
+                    i = 3; break;
+                case "sphygmomanometer":
+                    i = 4; break;
+                case "spinal board":
+                    i = 5; break;
+                case "extrication device":
+                    i = 6; break;
+                default:
+                    print("Item not available");
+                    break;
             }
         }
         else
+        {
             print("Not Working");
+            return;
+        }
 
-        AudioPlay();
-        items[i].SetActive(true);
+        if (i != -1 && i < items.Count)
+        {
+            AudioPlay();
+            items[i].SetActive(true);
+        }
     }
 
     public void OnDeSummon(string[] values)
     {
-        int i = 0;
+        int i = -1; // Initialize i to an invalid index
+
         if (values[0] == "return")
         {
-            if (values[1] == "flashlight")
+            switch (values[1])
             {
-                i = 1;
-            }
-            else if (values[1] == "c-collar")
-            {
-                i = 2;
-            }
-            else if (values[1] == "stethoscope")
-            {
-                i = 3;
-            }
-            else if (values[1] == "thermometer")
-            {
-                i = 4;
-            }
-            else if (values[1] == "sphygmomanometer")
-            {
-                i = 5;
-            }
-            else if (values[1] == "spinal board")
-            {
-                i = 6;
-            }
-            else if (values[1] == "extrication device")
-            {
-                i = 7;
-            }
-            else
-            {
-                print("Item not available");
+                case "flashlight":
+                    i = 0; break;
+                case "c-collar":
+                    i = 1; break;
+                case "stethoscope":
+                    i = 2; break;
+                case "thermometer":
+                    i = 3; break;
+                case "sphygmomanometer":
+                    i = 4; break;
+                case "spinal board":
+                    i = 5; break;
+                case "extrication device":
+                    i = 6; break;
+                default:
+                    print("Item not available");
+                    break;
             }
         }
         else
+        {
             print("Not Working");
+            return;
+        }
 
-        AudioPlay();
-        items[i].SetActive(false);
+        if (i != -1 && i < items.Count)
+        {
+            AudioPlay();
+            items[i].SetActive(false);
+        }
     }
 
     private void AudioPlay()
