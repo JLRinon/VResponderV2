@@ -22,6 +22,7 @@ TagManager:
   - Selectable
   - StopEngine
   - Counter
+  - Sandbag
   layers:
   - Default
   - TransparentFX
